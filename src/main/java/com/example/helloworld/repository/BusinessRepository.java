@@ -1,6 +1,6 @@
 package com.example.helloworld.repository;
 
-import com.example.helloworld.objects.Building;
+import com.example.helloworld.objects.entity.Building;
 import org.springframework.stereotype.Repository;
 
 @Repository

@@ -1,11 +1,10 @@
 package com.example.helloworld.repository;
 
-import com.example.helloworld.objects.FinancialJournal;
+import com.example.helloworld.objects.entity.FinancialJournal;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Timestamp;
-import java.util.List;
 import java.util.Set;
 
 @Repository

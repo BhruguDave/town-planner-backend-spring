@@ -1,4 +1,4 @@
-package com.example.helloworld.objects;
+package com.example.helloworld.objects.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

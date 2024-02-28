@@ -1,7 +1,7 @@
 package com.example.helloworld.service;
 
-import com.example.helloworld.objects.BarchartResponse;
-import com.example.helloworld.objects.CheckinJournal;
+import com.example.helloworld.objects.response.BarchartResponse;
+import com.example.helloworld.objects.entity.CheckinJournal;
 import com.example.helloworld.repository.CheckinJournalRepository;
 import com.example.helloworld.repository.FinancialJournalRepository;
 import com.example.helloworld.utils.Utils;

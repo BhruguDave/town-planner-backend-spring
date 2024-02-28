@@ -1,7 +1,6 @@
 package com.example.helloworld.repository;
 
-import com.example.helloworld.objects.CheckinJournal;
-import com.example.helloworld.objects.Log;
+import com.example.helloworld.objects.entity.Log;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 

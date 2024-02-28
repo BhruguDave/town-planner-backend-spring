@@ -1,6 +1,6 @@
 package com.example.helloworld.service;
 
-import com.example.helloworld.objects.Log;
+import com.example.helloworld.objects.entity.Log;
 import com.example.helloworld.repository.HeatmapRepository;
 import com.example.helloworld.utils.Utils;
 import org.apache.logging.log4j.LogManager;

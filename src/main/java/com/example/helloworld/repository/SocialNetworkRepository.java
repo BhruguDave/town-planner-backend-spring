@@ -1,6 +1,6 @@
 package com.example.helloworld.repository;
 
-import com.example.helloworld.objects.SocialNetwork;
+import com.example.helloworld.objects.entity.SocialNetwork;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 

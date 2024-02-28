@@ -1,15 +1,13 @@
-package com.example.helloworld.objects;
+package com.example.helloworld.objects.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-public class SocialNetworkRequest {
-    private List<String> participants;
+public class BarchartRequest {
+    private Integer venueid;
     private String date;
 }

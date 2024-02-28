@@ -1,7 +1,6 @@
 package com.example.helloworld.service;
 
-import com.example.helloworld.objects.Log;
-import com.example.helloworld.objects.SocialNetwork;
+import com.example.helloworld.objects.entity.SocialNetwork;
 import com.example.helloworld.repository.SocialNetworkRepository;
 import com.example.helloworld.utils.Utils;
 import org.apache.logging.log4j.LogManager;

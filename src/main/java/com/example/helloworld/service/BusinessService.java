@@ -1,6 +1,6 @@
 package com.example.helloworld.service;
 
-import com.example.helloworld.objects.Building;
+import com.example.helloworld.objects.entity.Building;
 import com.example.helloworld.repository.BusinessRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
