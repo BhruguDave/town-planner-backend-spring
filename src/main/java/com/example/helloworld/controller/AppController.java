@@ -18,9 +18,9 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-public class HeatmapController {
+public class AppController {
 
-    private static Logger logger = LogManager.getLogger(HeatmapController.class);
+    private static Logger logger = LogManager.getLogger(AppController.class);
     @Autowired
     private HeatmapService heatmapService;
     @Autowired
