@@ -20,7 +20,7 @@ public class SocialNetworkService {
     private Utils utils;
 
     public List<SocialNetwork> fetchSocialCirleData(List<String> participants, String date) {
-        String formattedString = utils.formatDateString(date, 17);
+        String formattedString = utils.formatDateString(date, 17); //17 for local // 0 for prod
         Timestamp timestamp = utils.convertStringToTimestamp(formattedString);
         return this.socialNetworkRepository.fetchSocialRelations(participants, timestamp);
     }
